@@ -1,0 +1,87 @@
+body{
+    padding-top:100px;
+}
+.container{
+    border: 1px solid #000;
+    margin: auto;
+    width: 600px;
+    padding: 80px;
+    background: linear-gradient(#878787, white);
+}
+.calculator{
+    align-items:center;
+    justify-items: center;
+    margin:auto;
+    width: 412px;
+    height:100%;
+    border: 1px solid #000;
+    box-shadow: 3px 4px 15px 5px rgb(0 0 0 / 50%);
+}
+#input{
+    font-weight: bold;
+    width: 404px;
+    text-align: right;
+    height: 35px;
+}
+.btn{
+    height:50px;
+    width:100px;
+}
+.btn-cham{
+    height:50px;
+    width:100px;
+    font-weight: bold;
+}
+.btn-xoatatca{
+    height:50px;
+    width:100px;
+    background-color: orange;
+}
+.btn-ketqua{
+    font-weight: bold;
+    padding:auto;
+    height:50px;
+    width:100%;
+}
+.btn-pheptinh{
+    font-weight: bold;
+    height:50px;
+    width:100px;
+    background-color:lightblue;
+}
+.btn:hover{
+    background-color:grey;
+}
+.btn-pheptinh:hover{
+    background-color:grey;
+}
+.btn-xoatatca:hover{
+    background-color:grey;
+}
+.btn-ketqua:hover{
+    background-color:grey;
+}
+.title{
+    font-size: 25px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.author{
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+}
+@media (max-width:768px){
+    .container{width: 100%;}
+    .calculator{margin-left: -50px;}
+}
+@media (max-width:480px){
+    .container{width: 100%;}
+}
+@media (max-width:320px){   
+    .container{width: 100%;}
+}
+@media (max-width:240px){
+    .container{width: 100%;}
+}
